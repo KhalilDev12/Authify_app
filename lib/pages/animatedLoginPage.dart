@@ -19,8 +19,8 @@ class _AnimatedLoginPageState extends State<AnimatedLoginPage>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 2),
-      reverseDuration: const Duration(milliseconds: 400), // set the Duration of your animation
+      duration: const Duration(seconds: 1),
+      reverseDuration: const Duration(milliseconds: 800), // set the Duration of your animation
     );
   }
 

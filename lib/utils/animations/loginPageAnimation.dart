@@ -1,5 +1,8 @@
 import 'package:flutter/animation.dart';
 
+
+// Used Animation Class
+
 class LoginPageAnimation {
   AnimationController controller;
   late Animation<double> circleSize;
